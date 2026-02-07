@@ -1,0 +1,28 @@
+.lottery-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+  border-radius: 5px;
+}
+h1
+{
+    text-align: center;
+}
+#result{
+    font-size: 30px;
+    font-weight: 50px;
+}
+#pickNumberBtn{
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: 10px;
+}
+#pickNumberBtn:hover{
+    background-color: rgb(161, 59, 233);
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(255, 0, 136);
+}
